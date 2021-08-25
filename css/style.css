@@ -437,6 +437,7 @@ template {
   padding-right: 88px;
   background-color: #F5FAFE;
   border: none;
+  outline: none;
   font-size: 12px;
   line-height: 15px;
 }
@@ -449,6 +450,7 @@ template {
   height: 100%;
   border: none;
   background-color: #EC1F46;
+  cursor: pointer;
 }
 
 .user {
@@ -872,6 +874,7 @@ template {
   border: none;
   background-color: #EC1F46;
   color: #fff;
+  cursor: pointer;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
