@@ -1034,6 +1034,8 @@ template {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .card {
@@ -1053,6 +1055,7 @@ template {
   height: 255px;
   border-radius: 6px;
   overflow: hidden;
+  margin-bottom: 30px;
 }
 
 .card::before {
