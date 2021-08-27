@@ -1424,6 +1424,16 @@ template {
     max-width: 576px;
     width: 92%;
   }
+  body {
+    padding-top: 78px;
+  }
+  .navbar--mobile_fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+  }
   .navbar__search, .navbar-menu, .navbar__user {
     display: none;
   }
