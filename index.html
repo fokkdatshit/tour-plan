@@ -169,7 +169,7 @@
                         <span class="booking__num">12100</span>
                      </a>
                   </div>
-                  <button class="button booking__button">View Other Options</button>
+                  <button data-toggle="modal" class="button booking__button">View Other Options</button>
                </div>
 
                <div class="map">
@@ -348,7 +348,7 @@
                <form action="#" class="footer__form">
                   <input type="text" class="input footer__input" placeholder="Your Full Name*">
                   <input type="text" class="input footer__input" placeholder="Phone Number*">
-                  <textarea class="footer__message" cols="30" rows="4" placeholder="Message"></textarea>
+                  <textarea class="message footer__message" cols="30" rows="4" placeholder="Message"></textarea>
                   <button class="button footer__button">Send</button>
                   <span class="footer__info">* Required Fields</span>
                </form>
@@ -356,6 +356,26 @@
          </div>
       </div>
    </footer>
+
+   <div class="modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__dialog">
+         <a href="#" class="modal__close">
+            <img src="img/close.svg" alt="Icon: Close">
+         </a>
+
+         <h3 class="modal__title modal__title--mb-3">Send us a message</h3>
+         <form action="#" class="modal__form">
+            <input type="text" class="input modal__input" placeholder="Your Full Name*">
+            <input type="text" class="input modal__input" placeholder="Phone Number*">
+            <textarea class="message modal__message" cols="30" rows="4" placeholder="Message"></textarea>
+            <button class="button modal__button">Send</button>
+            <span class="modal__info">* Required Fields</span>
+         </form>
+      </div>
+   </div>
+
+   <script src="js/jquery-3.6.0.min.js"></script>
    <script src="js/swiper-bundle.min.js"></script>
    <script src="js/main.js"></script>
 </body>
