@@ -48,4 +48,25 @@ $(document).ready(function () {
       modalOverlay.removeClass("modal__overlay--visible")
       modalDialog.removeClass("modal__dialog--visible")
    }
+
+   // Обработка форм
+
+   $('.form').each(function () {
+      $(this).validate({
+         errorClass: "invalid",
+         messages: {
+            name: {
+               required: "Укажите Ваше имя",
+               minlength: "Имя должно быть не менее 2-ух символов"
+            },
+            email: {
+               required: "емэил рекуа",
+               email: "емаил"
+            },
+            phone: {
+               required: "Телефон обязателен",
+            },
+         }
+      });
+   })
 });
