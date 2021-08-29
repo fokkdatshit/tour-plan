@@ -1,3 +1,3 @@
 # tour-plan
 
-Viktor Galeznik
+Preview: https://fokkdatshit.github.io/tour-plan/
